@@ -1,0 +1,101 @@
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    width: 400px;
+    height: 300px; /* Set a fixed height for the popup */
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for the popup */
+    background-color: #F6F0E6;
+  }
+  
+  .header {
+    width: 320px;
+    display: flex;
+    margin: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000; /* Ensure the header stays on top */
+  }
+  
+  .header img {
+    height: 25px;
+  }
+  
+  .profile {
+    height: 10px;
+    /* align-self: right; */
+  }
+  
+  /* .header h1 {
+    font-size: 18px;
+    font-weight: 450;
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+  } */
+  
+  .photo-container {
+    display: flex;
+    padding: 15px;
+    padding-top: 95px;
+    background-color: #F6F0E6;
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 10px gap between images */
+    padding: 5px;
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .photo-item {
+    background-color: #ddd;
+    width: 100%;
+    position: relative;
+    border-radius: 10px; /* Rounded corners for photo items */
+    overflow: hidden;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+  
+  .remove-btn img {
+    width: 16px; /* Adjust size as needed */
+    height: 16px;
+  }
+  
+  
