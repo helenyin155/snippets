@@ -1,5 +1,5 @@
 {
-    "name": "Snippet",
+    "name": "Snippets",
     "description": "helping you capture all your design inspo",
     "version": "1.0",
     "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
@@ -29,7 +29,7 @@
         "24": "assets/ext-icon.png",
         "32": "assets/ext-icon.png"
       },
-      "default_title": "Snippet",
+      "default_title": "Snippets",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
